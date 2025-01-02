@@ -1,0 +1,26 @@
+[MESSAGES CONTROL]
+disable=C0115,C0116,W0105,W1203,no-else-return,fixme,invalid-name
+
+#	TODO 1101" isable unused-argument warning, as some function signatures may require unused arguments
+#	C0103 = variable doesn't conform to snake_case naming style
+#	C0114 = missing module docstring
+#	C0116 = missing class  docstring
+#	C0116 = missing function docstring
+#	C0301 = diable line too long warning (I know!, before committing line length will be fixed)
+#	C0302 = too many lines in module
+#	C0411 = import ... should be placed before import ...
+#	C0413 = import ... should be at the top of file
+#	E1101 = source not available warnings (lxml etree)
+#	I1101 = lxml Element member warning
+#	W0105 = unnecessary-pass warning, as it can clutter code
+#  	W0105 = pointless string statement
+#	W0107 = unnecessary-string-escaping warning, as it can also clutter code
+#	W0511 = TODO warnings
+#	W0702 = bare-except warning, as it can hide errors and make debugging harder
+#	W1514 = duplicate-string-formatting-argument warning, as it can be a false positive
+	#   W1401 =
+# 	W1203 = logging-fstring-interpolation
+
+
+[MASTER]
+extension-pkg-whitelist=pydantic
