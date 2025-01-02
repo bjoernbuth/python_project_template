@@ -1,0 +1,12 @@
+{
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "python.analysis.typeCheckingMode": "standard",
+    "pylint.args": [
+        "--rcfile=.pylintrc"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "git-graph.openNewTabEditorGroup": "Two",
+    "git.allowNoVerifyCommit": true,
+    "editor.guides.indentation": false
+}
