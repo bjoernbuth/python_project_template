@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "TODO-NAME"
+version = "0.0.1"
+authors = [{ name = "TODO-AUTHOR" }]
+readme = "README.md"
+
+dependencies = ["DEPS"]
+
+[project.scripts]
+short_name = "subpackage.module:main"
+
+[tool.black]
+line-length = 100
+
+[tool.pytest.ini_options]
+norecursedirs = "temp*"
