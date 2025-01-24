@@ -1,0 +1,4 @@
+[MASTER]
+disable=all
+
+# this file is just a reminder how to turn off pylint completely.
